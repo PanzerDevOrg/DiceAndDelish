@@ -18,10 +18,10 @@ import org.jetbrains.annotations.NotNull;
 import java.util.List;
 
 //? if >=1.21.2 {
-import net.minecraft.world.item.crafting.PlacementInfo;
+/*import net.minecraft.world.item.crafting.PlacementInfo;
 import net.minecraft.world.item.crafting.RecipeBookCategory;
 import net.minecraft.world.item.crafting.RecipeBookCategories;
-//?}
+*///?}
 
 public record CurdleRecipe(Ingredient base, Ingredient activator,
                            ItemStack result) implements Recipe<CurdleRecipeInput> {
@@ -38,7 +38,7 @@ public record CurdleRecipe(Ingredient base, Ingredient activator,
     }
 
     //? if <1.21.2 {
-    /*@Override
+    @Override
     public boolean canCraftInDimensions(int width, int height) {
         return true;
     }
@@ -57,8 +57,8 @@ public record CurdleRecipe(Ingredient base, Ingredient activator,
     public @NotNull RecipeType<?> getType() {
         return ModRecipeTypes.CURDLE_TYPE.get();
     }
-    *///?} else {
-    @Override
+    //?} else {
+    /*@Override
     public @NotNull PlacementInfo placementInfo() {
         return PlacementInfo.create(List.of(base, activator));
     }
@@ -77,7 +77,7 @@ public record CurdleRecipe(Ingredient base, Ingredient activator,
     public @NotNull RecipeType<CurdleRecipe> getType() {
         return ModRecipeTypes.CURDLE_TYPE.get();
     }
-    //?}
+    *///?}
 
     public static class Serializer implements RecipeSerializer<CurdleRecipe> {
 
