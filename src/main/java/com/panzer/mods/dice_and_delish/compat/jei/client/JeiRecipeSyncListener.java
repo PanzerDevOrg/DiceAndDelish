@@ -5,6 +5,7 @@ import com.panzer.mods.dice_and_delish.DiceAndDelish;
 import com.panzer.mods.dice_and_delish.compat.jei.JeiModPlugin;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.SubscribeEvent;
+import net.neoforged.fml.ModList;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.neoforge.client.event.ClientPlayerNetworkEvent;
 
@@ -17,7 +18,15 @@ public final class JeiRecipeSyncListener {
 
     @SubscribeEvent
     public static void onLoggingIn(ClientPlayerNetworkEvent.LoggingIn event) {
-        JeiModPlugin.onPlayerLoggedIn();
+        if (ModList.get().isLoaded("jei")) {
+            JeiSafeExecutor.sync();
+        }
+    }
+
+    private static final class JeiSafeExecutor {
+        private static void sync() {
+            JeiModPlugin.onPlayerLoggedIn();
+        }
     }
 }
 //?}
