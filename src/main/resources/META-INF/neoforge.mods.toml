@@ -29,17 +29,17 @@ ordering = "NONE"
 side = "${mod_side}"
 
 [[dependencies."${mod_id}"]]
-modId = "${jade_mod_id}"
-type = "${jade_type}"
+modId = "jade"
+type = "optional"
 versionRange = "${jade_version_range}"
-ordering = "${jade_ordering}"
-side = "${jade_side}"
+ordering = "AFTER"
+side = "CLIENT"
 
 #? if <1.21.2 {
 [[dependencies."${mod_id}"]]
-modId = "${jei_mod_id}"
-type = "${jei_type}"
+modId = "jei"
+type = "optional"
 versionRange = "${jei_version_range}"
-ordering = "${jei_ordering}"
-side = "${jei_side}"
+ordering = "AFTER"
+side = "CLIENT"
 #?}

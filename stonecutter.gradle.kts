@@ -1,20 +1,9 @@
+// Managed by bichal-build-logic (shared/mod/stonecutter.gradle.kts): `bichal sync`
+// overwrites this file but keeps the `stonecutter active` line, which
+// Stonecutter rewrites when you switch the active Minecraft version.
+// Parameters shared by every mod (swaps, constants) live in bichal.stonecutter.
 plugins {
-    id("dev.kikugie.stonecutter")
-    id("net.neoforged.moddev") apply false
-}
-
-inline fun <reified T : Any> reqProperty(key: String): T {
-    return sc.properties.getOrNull<T>(key)
-        ?: error("Required root property '$key' is missing in stonecutter.properties.toml.")
+    id("bichal.stonecutter")
 }
 
 stonecutter active "1.21.1"
-
-val modVersion: String = reqProperty("mod.version")
-val modId: String = reqProperty("mod.id")
-
-stonecutter parameters {
-    swaps["mod_version"] = "\"$modVersion\";"
-    swaps["minecraft"] = "\"${node.metadata.version}\";"
-    constants["release"] = modId != "template"
-}
