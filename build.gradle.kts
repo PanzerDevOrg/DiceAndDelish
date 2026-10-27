@@ -1,14 +1,14 @@
-import com.panzer.gradle.JsonMinifier
-import com.panzer.gradle.PanzerModExtension
+import net.bichal.gradle.JsonMinifier
+import net.bichal.gradle.BichalModExtension
 import org.apache.tools.ant.filters.ReplaceTokens
 import org.gradle.kotlin.dsl.invoke
 
 plugins {
-    id("panzer.neoforge-mod")
+    id("bichal.neoforge-mod")
     idea
 }
 
-val modProps = extensions.getByType(PanzerModExtension::class.java).props
+val modProps = extensions.getByType(BichalModExtension::class.java).props
 
 val mainSourceSet = sourceSets.main.get()
 

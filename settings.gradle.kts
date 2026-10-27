@@ -1,11 +1,11 @@
 import java.io.File
 
-val commonToml = File(rootDir, "../panzer-build-logic/common.stonecutter.properties.toml")
+val commonToml = File(rootDir, "../bichal-build-logic/common.stonecutter.properties.toml")
 val modToml = File(rootDir, "mod.stonecutter.properties.toml")
 val mergedToml = File(rootDir, "stonecutter.properties.toml")
 
 if (!commonToml.exists()) {
-    error("Strict Configuration Error: shared 'common.stonecutter.properties.toml' was not found at '${commonToml.path}'. Check that '../panzer-build-logic' exists next to this project.")
+    error("Strict Configuration Error: shared 'common.stonecutter.properties.toml' was not found at '${commonToml.path}'. Check that '../bichal-build-logic' exists next to this project.")
 }
 if (!modToml.exists()) {
     error("Strict Configuration Error: 'mod.stonecutter.properties.toml' was not found in root project directory.")
@@ -48,7 +48,7 @@ for (key in orderedKeys) {
 mergedToml.writeText(mergedBuilder.toString().trimEnd() + "\n")
 
 pluginManagement {
-    includeBuild("../panzer-build-logic")
+    includeBuild("../bichal-build-logic")
 
     repositories {
         mavenCentral()
