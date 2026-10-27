@@ -104,22 +104,9 @@ tasks {
             register("neo_version_range")
             register("minecraft_version_range")
 
-            // Jade
-            register("jade_mod_id", "integrations.jade_id")
-            register("jade_type", "integrations.jade_type")
-            register("jade_version_range", "jade_version_range")
-            register("jade_ordering", "integrations.jade_ordering")
-            register("jade_side", "integrations.jade_side")
 
-            // JEI
-            register("jei_mod_id", "integrations.jei_id")
-            register("jei_type", "integrations.jei_type")
-            register("jei_version_range", "jei_version_range")
-            register("jei_ordering", "integrations.jei_ordering")
-            register("jei_side", "integrations.jei_side")
         }
 
-        filesMatching("META-INF/neoforge.mods.toml") { expand(props) }
 
         val basePackage = modProps.req(project, "mod.package")
         val mixinPackage = "$basePackage.mixin"
@@ -158,15 +145,5 @@ tasks {
 
     named("jar") {
         dependsOn("optimizeTextures")
-    }
-
-    register<Copy>("buildAndCollect") {
-        group = "build"
-        description = "Build mod jar and copy result to `build/libs/{mod version}/`"
-
-        dependsOn("jar")
-        from(project.tasks.named("jar"))
-        inputs.property("version", modProps.modVersion)
-        into(rootProject.layout.buildDirectory.file("libs/${modProps.modVersion}"))
     }
 }
