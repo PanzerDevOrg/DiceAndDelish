@@ -162,14 +162,20 @@ Please be respectful and constructive when opening issues or discussing changes.
 * **Author:** Vishal Torres Nun ([@Bichal](https://github.com/Bichal))
 * **Credits:** Hugo Escribano Moreno ([@HugoBeshugoXD](https://github.com/HugobesugoXD))
 
+<!-- bichal:license -->
 ## License
 
-Dice & Delish uses a **dual-license model**:
+| Content | License |
+|---|---|
+| Source code | [AGPL-3.0](https://www.gnu.org/licenses/agpl-3.0.html), see [`LICENSE-AGPL`](./LICENSE-AGPL) |
+| Artwork, branding and documentation | [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/), see [`LICENSE-CC`](./LICENSE-CC) |
 
-| Content                             | License                                                                                                                              |
-|-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
-| Source code (Java, Rust, C++)       | [GNU Affero General Public License v3.0 (AGPLv3)](https://www.gnu.org/licenses/agpl-3.0.html) - see [`LICENSE-AGPL`](./LICENSE-AGPL) |
-| Artwork, logos, and branding assets | [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) - see [`LICENSE-CC`](./LICENSE-CC)                             |
+**Source code:** you may study, modify and redistribute it under the AGPL; if you run a modified version as a network service, its source must be available to that service's users.
+
+**Artwork:** credit Bichal, no commercial use without permission, and share derivatives under the same license.
+
+See [`LICENSE`](./LICENSE) for the full summary.
+<!-- /bichal:license -->
 
 ### Source Code (AGPLv3)
 - **Share & Adapt** - You're free to study, modify, and redistribute it under AGPLv3 terms.
@@ -179,8 +185,6 @@ Dice & Delish uses a **dual-license model**:
 - **Attribution** - You must credit the original authors ([@Bichal](https://github.com/Bichal) & [@HugoBeshugoXD](https://github.com/HugobesugoXD)) and link back to this repository.
 - **NonCommercial** - No selling the assets or derivatives, or using them commercially, without explicit permission.
 - **ShareAlike** - If you remix, transform, or build upon the material, you must distribute your contributions under the same license.
-
-See [`LICENSE`](./LICENSE) for the full summary and links to both license texts, or open an issue if you'd like to discuss usage outside these terms.
 
 ---
 
@@ -195,3 +199,7 @@ See [`LICENSE`](./LICENSE) for the full summary and links to both license texts,
 [![Issues](https://img.shields.io/badge/issues-open_issue-f16436?style=for-the-badge&logo=github)](https://github.com/PanzerOrg/Panzer-Kitchen/issues)
 
 </div>
+
+<!-- bichal:footer -->
+Code: **AGPL-3.0** · Art: **CC BY-NC-SA 4.0** · Made by **Bichal**
+<!-- /bichal:footer -->
