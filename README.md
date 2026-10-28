@@ -25,7 +25,7 @@ so the mod stays lightweight and easy to extend or add compatibility for.
 
 ## Features
 
-### 🔥 The Grill Table
+### The Grill Table
 
 - An 8-slot cooking block: 4 dedicated **grill slots** driven by a custom cook recipe type, plus 4 **campfire slots**
   that reuse vanilla campfire recipes - cook two different ways on the same block.
@@ -38,7 +38,7 @@ so the mod stays lightweight and easy to extend or add compatibility for.
 - Custom block entity renderer with animated food items, sizzle particles, and looping grill audio for full sensory
   feedback.
 
-### 🍳 The Skillet
+### The Skillet
 
 - A compact frying station: cook a single **Egg** alone, or drop in **Cut Potato** or **Cut Purple Onion** while it
   cooks to turn it into a **Potato** or **Purple Onion Tortilla** instead.
@@ -48,7 +48,7 @@ so the mod stays lightweight and easy to extend or add compatibility for.
 - Its own block entity renderer and looping sizzle audio, plus a dedicated Jade tooltip showing egg count and
   remaining cook progress.
 
-### 🔪 The Cutting Board & Knives
+### The Cutting Board & Knives
 
 - Place a cuttable ingredient on the **Cutting Board**, then cut it with a knife to produce prep items like Cut
   Potato, Cut Purple Onion, diced raw chicken, or sliced cheese.
@@ -57,7 +57,7 @@ so the mod stays lightweight and easy to extend or add compatibility for.
 - Its own block entity renderer, and rendered at reduced detail past configurable chunk-distance tiers alongside the
   Grill Table, easing load in large builds and farms.
 
-### 🌱 Crops
+### Crops
 
 - **Strawberry**, **Tomato**, **Lettuce**, **Purple Onion**, and **Rice** - each with dedicated seeds, block states,
   and growth stages.
@@ -65,7 +65,7 @@ so the mod stays lightweight and easy to extend or add compatibility for.
 - **Wild variants** of every crop can be found generating naturally in the world, harvested for a small snack or to
   kickstart your first farm - no starter seeds required.
 
-### 🥛 The Iron Cup
+### The Iron Cup
 
 - A reusable, refillable vessel instead of a single-use container.
 - Fill it with **milk** straight from a cow, then turn it into **yogurt** or **strawberry yogurt** through dedicated
@@ -73,7 +73,7 @@ so the mod stays lightweight and easy to extend or add compatibility for.
 - Content is tracked via a proper data component, so each fill state has its own name, food values, and model - and JEI
   treats each as a distinct entry automatically.
 
-### 🍳 New Foods & Recipes
+### New Foods & Recipes
 
 - Raw & cooked chicken pieces, cut potato & purple onion, fried egg, tortillas (plain, potato, purple onion), rice &
   rice bowl, cheese & sandwiches (raw and toasted), grilled cheese, salad, milk, yogurt, and strawberry yogurt.
@@ -82,7 +82,7 @@ so the mod stays lightweight and easy to extend or add compatibility for.
 - A full data-driven backend: recipes, loot tables, item/block tags, advancements, biome/placed features for crop
   world-gen, and sound definitions are all generated, not hand-authored per platform.
 
-### 🌍 Built-in Localization
+### Built-in Localization
 
 - Ships with **English (en_us)** and **Spanish (es_es)** translations out of the box.
 
@@ -105,7 +105,7 @@ so the mod stays lightweight and easy to extend or add compatibility for.
 
 > This mod is a **client + server** mod - install it on both sides for multiplayer.
 
-> ⚠️ **Upgrading from NerdSoft Kitchen (pre-1.0.0)?** The mod ID and every registry name changed as part of the
+> **Upgrading from NerdSoft Kitchen (pre-1.0.0)?** The mod ID and every registry name changed as part of the
 > rename to Dice & Delish. Blocks/items placed under the old `nerdsoftkitchen` ID will not carry over automatically -
 > back up your world first, and expect to need a rename/migration data fix (or a fresh start) on existing saves.
 
@@ -201,5 +201,5 @@ See [`LICENSE`](./LICENSE) for the full summary.
 </div>
 
 <!-- bichal:footer -->
-Code: **AGPL-3.0** · Art: **CC BY-NC-SA 4.0** · Made by **Bichal**
+Code: **AGPL-3.0** | Art: **CC BY-NC-SA 4.0** | Made by **Bichal**
 <!-- /bichal:footer -->
