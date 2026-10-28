@@ -36,6 +36,12 @@
 
 There is no config file: recipes, loot tables and tags live in the datapack.
 
+## Screenshots
+
+<div align="center">
+<img src="docs/media/screenshot_grill.png" width="400"/> <img src="docs/media/screenshot_farm.png" width="400"/>
+</div>
+
 ## Requirements
 
 - Minecraft 1.21 to 1.21.3, with NeoForge 21 or newer.
@@ -67,6 +73,14 @@ Found a bug, or have a translation or a suggestion? Open an issue.
 
 See [`LICENSE-AGPL`](./LICENSE-AGPL) and [`LICENSE-CC`](./LICENSE-CC) for the full text.
 <!-- /bichal:license -->
+
+<div align="center">
+
+![Logo](docs/media/logo_small.png)
+
+<div style="display: flex; justify-content: center; align-items: center; gap: 0.2rem;">Made by <a href="https://github.com/PanzerDevOrg">Panzer</a> <img src="docs/media/panzer_logo.svg" width=32></div>
+
+</div>
 
 <!-- publish:on -->
 
