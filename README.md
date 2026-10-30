@@ -55,7 +55,11 @@ Dice & Delish is a cooking overhaul for NeoForge 1.21. It adds a small cooking l
 | Source code | [AGPL-3.0](https://www.gnu.org/licenses/agpl-3.0.html), see [`LICENSE-AGPL`](./LICENSE-AGPL) |
 | Artwork, branding and documentation | [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/), see [`LICENSE-CC`](./LICENSE-CC) |
 
-Artwork credits Bichal and Hugo Escribano Moreno. See [`LICENSE`](./LICENSE) for the full summary.
+**Source code:** you may study, modify and redistribute it under the AGPL; if you run a modified version as a network service, its source must be available to that service's users.
+
+**Artwork:** credit Bichal, no commercial use without permission, and share derivatives under the same license.
+
+See [`LICENSE`](./LICENSE) for the full summary.
 <!-- /bichal:license -->
 
 <div align="center">
@@ -71,5 +75,5 @@ Artwork credits Bichal and Hugo Escribano Moreno. See [`LICENSE`](./LICENSE) for
 ---
 
 <!-- bichal:footer -->
-Code: **AGPL-3.0** | Art: **CC BY-NC-SA 4.0** | Made by **Bichal**
+Code: **AGPL-3.0** · Art: **CC BY-NC-SA 4.0** · Made by **Bichal**
 <!-- /bichal:footer -->
