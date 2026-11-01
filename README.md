@@ -5,23 +5,17 @@
 <img src="https://img.shields.io/badge/NeoForge-Client_and_Server-e8710a?style=for-the-badge" alt="NeoForge, client and server">
 </p>
 
-<!-- publish:only modrinth -->
 <p align="center">
-<a href="https://modrinth.com/mod/diceanddelish"><img src="https://img.shields.io/badge/Download_on-Modrinth-1bd96a?style=for-the-badge&logo=modrinth&logoColor=white" alt="Download on Modrinth"></a>
-</p>
-<!-- /publish:only -->
-
 <!-- publish:only curseforge -->
-<p align="center">
+<a href="https://modrinth.com/mod/diceanddelish"><img src="https://img.shields.io/badge/Download_on-Modrinth-1bd96a?style=for-the-badge&logo=modrinth&logoColor=white" alt="Download on Modrinth"></a>
+<!-- /publish:only -->
+<!-- publish:only modrinth -->
 <a href="https://www.curseforge.com/minecraft/mc-mods/diceanddelish"><img src="https://img.shields.io/badge/Download_on-CurseForge-f16436?style=for-the-badge&logo=curseforge&logoColor=white" alt="Download on CurseForge"></a>
-</p>
 <!-- /publish:only -->
-
 <!-- publish:only github -->
-<p align="center">
 <a href="https://github.com/PanzerDevOrg/DiceAndDelish/releases"><img src="https://img.shields.io/badge/Download_on-GitHub-24292f?style=for-the-badge&logo=github&logoColor=white" alt="Download on GitHub"></a>
-</p>
 <!-- /publish:only -->
+</p>
 
 ## Overview
 
